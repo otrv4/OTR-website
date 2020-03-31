@@ -1,0 +1,46 @@
+/**
+ * General Layout
+ */
+
+.content {
+  margin-top: $box-indent;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: $box-indent;
+}
+
+.flex-item-3 {
+    width: $full-width / 2;
+
+    > .inside-image {
+      width: $full-width;
+    }
+
+    a {
+      color: $pink-color;
+    }
+
+}
+
+.flex-item-4 {
+    //margin-top: $spacing-unit;
+    width: $full-width / 2;
+    padding: 15px;
+
+    > .inside-image {
+      width: $full-width;
+    }
+
+    > .inside-png-image {
+      margin-top: 7px;
+      width: $full-width;
+    }
+
+    a {
+      color: $pink-color;
+    }
+
+}

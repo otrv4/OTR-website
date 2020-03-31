@@ -1,0 +1,47 @@
+/**
+ * Homepage
+ */
+
+#main {
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.home-container {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: $box-indent;
+}
+
+.logo-text {
+    font-family: $alternative-font-family;
+    width: $full-width / 1.5;
+    color: black;
+
+    > .intro-text {
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    > .des-text {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+}
+
+.logo {
+    width: $full-width / 2;
+    padding-bottom: 25px;
+    padding-left: 45px;
+
+    > .inside-image {
+      width: $full-width / 1.2;
+    }
+
+    > .inside-png-image {
+      margin-top: 7px;
+      width: $full-width;
+    }
+
+}
+
