@@ -6,6 +6,7 @@ vendor
 
 # Folder view configuration files
 .DS_Store
+images/.DS_Store
 Desktop.ini
 
 Gemfile.lock
