@@ -2,9 +2,9 @@ language: ruby
 rvm:
   - 2.6.3
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
 script:
+  - bundle config set deployment 'true'
+  - bundle install
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site
 
