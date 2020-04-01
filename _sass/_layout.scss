@@ -159,3 +159,64 @@
     padding: $spacing-unit 0;
     padding-top: 70px;
 }
+
+/**
+ * Pages layout
+ */
+
+.post-title {
+    font-size: 42px;
+    line-height: 1;
+    margin-top: 10%;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.content {
+  margin-top: $box-indent;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: $box-indent;
+}
+
+.flex-item-3 {
+    width: $full-width / 2;
+
+    > .inside-image {
+      width: $full-width;
+    }
+
+    a {
+      color: $red-hover-color;
+    }
+
+}
+
+.flex-item-4 {
+    //margin-top: $spacing-unit;
+    width: $full-width / 2;
+    padding: 15px;
+
+    > .inside-image {
+      width: $full-width;
+    }
+
+    > .inside-png-image {
+      margin-top: 7px;
+      width: $full-width;
+    }
+
+    a {
+      color: $red-hover-color;
+    }
+
+}
+
+/**
+ *  About page
+ */
