@@ -1,5 +1,7 @@
 # OTR new website repo
 
+[![Build Status](https://api.travis-ci.com/otrv4/OTR-website.svg?branch=master)](https://travis-ci.com/github/otrv4/OTR-website)
+
 This is the official repo of the OTR website code. This will be eventually
 moved to the correct repo once it is finished.
 
