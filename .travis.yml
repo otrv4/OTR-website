@@ -6,7 +6,7 @@ script:
   - bundle config set deployment 'true'
   - bundle install
   - bundle exec jekyll build
-  - bundle exec htmlproofer --url-ignore "/#.*/" ./_site
+  - bundle exec htmlproofer --allow-hash-href ./_site
 
 env:
   global:
