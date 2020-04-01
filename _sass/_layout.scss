@@ -48,7 +48,7 @@
         transition: color 1s ease-out;
 
         &:hover {
-            color: $yellow-hover-color;
+            color: $red-hover-color;
         }
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -105,7 +105,8 @@
  * Site footer
  */
 .site-footer {
-    padding: $spacing-unit / 2 0;
+    padding: $spacing-unit;
+    background-color: $yellow-hover-color;
 }
 
 .contact-list,

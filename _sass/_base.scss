@@ -125,24 +125,6 @@ a {
 /**
  * Icons
  */
-.icon-platform {
-  > svg {
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-    margin: 0 9px;
-
-    path {
-      fill: $white-color;
-      webkit-transition: fill 3s ease-out; /* For Safari 3.1 to 6.0 */
-      transition: fill 0.4s ease-out;
-    }
-    &:hover path {
-      fill: $yellow-hover-color;
-    }
-  }
-}
-
 .icon-big {
   > svg {
     width: 90px;
@@ -180,7 +162,7 @@ a {
     }
 
     &:hover path {
-      fill: $yellow-hover-color;
+      fill: $red-hover-color;
     }
   }
 }
