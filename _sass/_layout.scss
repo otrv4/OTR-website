@@ -182,6 +182,10 @@
   display: -webkit-flex;
   display: flex;
   margin-top: $box-indent;
+
+  > .about-text {
+  margin-bottom: 100px;
+  }
 }
 
 .flex-item-3 {
@@ -220,3 +224,13 @@
 /**
  *  About page
  */
+
+.yellow-header {
+    width: auto;
+    margin-top: 40px;
+    display: block;
+
+    > .inside-logo {
+      width: $full-width;
+    }
+}
