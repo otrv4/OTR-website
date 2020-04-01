@@ -138,7 +138,7 @@ a {
       transition: fill 0.4s ease-out;
     }
     &:hover path {
-      fill: $pink-dark-color;
+      fill: $yellow-hover-color;
     }
   }
 }
@@ -174,13 +174,13 @@ a {
 .icon-inside-big {
   > svg {
     path {
-      fill: $grey-color;
+      fill: $black-color;
       webkit-transition: fill 1s ease-out; /* For Safari 3.1 to 6.0 */
       transition: fill 1s ease-out;
     }
 
     &:hover path {
-      fill: $pink-color;
+      fill: $yellow-hover-color;
     }
   }
 }

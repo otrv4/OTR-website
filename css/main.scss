@@ -14,24 +14,14 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #828282;
+$text-color:       black;
 $header-text-color: #111;
 $background-color: #ffffff;
 $brand-color:      #3d3d3d;
-$hexagon-background-color: #F58A74;;
-$hexagon-brand-colo: #3d3d3d;
-$warning-color:    #FFEEE1;
 
 $white-color:      #fafafa;
-$pink-dark-color:  #722F2A;
-$pink-color:       #f26359;
-$grey-color:       #828282;
-$light-grey-color: #f1f1f1;
-$medium-grey-color: #dcdcdc;
-$dark-grey-color:  #666;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-lighter: lighten($grey-color, 10%);
-$grey-color-dark:  darken($grey-color, 25%);
+$yellow-hover-color:  #FEE600;
+$black-color:       black;
 
 // Width of the content area
 $content-width:    1400px;
