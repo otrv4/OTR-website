@@ -234,3 +234,38 @@
       width: $full-width;
     }
 }
+
+/**
+ *  Team page
+ */
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    height: auto;
+    line-height:30px;
+}
+
+.flex-item {
+    padding: 10px;
+    background: $yellow-hover-color;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 0px;
+    height: auto;
+
+    > img {
+      padding-bottom: 10px;
+    }
+}
