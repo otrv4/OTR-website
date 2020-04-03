@@ -171,3 +171,12 @@ a {
     }
   }
 }
+
+.copyright {
+   font-size: 11px;
+   text-align: right;
+
+   > .top-copyright {
+       padding-top: 80px;
+   }
+}
