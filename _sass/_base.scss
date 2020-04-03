@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    background-color: $yellow-hover-color;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -103,6 +104,10 @@ a {
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+
+    > a {
+        background-color: white;
     }
 }
 

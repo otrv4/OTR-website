@@ -1,26 +1,30 @@
 ---
 layout: page
-title: Contact
+title: Contribute
 tags: menu
-permalink: /contact/
+permalink: /contribute/
 ---
 
 <div class="container">
   <div class="about-text">
     <div class="flex-container">
       <div class="contact-item">
-			  <br><br>
-				<a href="#contribute"><p>How to contribute</p></a>
-			</div>
+        <br><br>
+        <a href="#contribute"><p>How to contribute</p></a>
+      </div>
       <div class="contact-item">
-			  <br><br>
-				<p>Jabber service</p>
-			</div>
+        <br><br>
+        <p>Jabber service</p>
+      </div>
       <div class="contact-item">
-			  <br><br>
-				<p>More contact points</p>
-			</div>
-	</div>
+        <br><br>
+        <p>More contact points</p>
+      </div>
+      <div class="contact-item">
+        <br><br>
+        <a href="#sponsorship"><p>Sponsorship</p></a>
+      </div>
+    </div>
 
   <div class="contribute">
     <a id="contribute"><h1>How to contribute</h1></a>
@@ -35,4 +39,9 @@ permalink: /contact/
 		</ul>
   </div>
 
+  <div class="contribute">
+    <a id="sponsorship"><h1>Sponsorship</h1></a>
+    <br>
+    <p>OTR (in its version 4) is sponsored by the <a href="https://nlnet.nl/" target="_blank" title="NLNet Foundation Website">NLNet Foundation</a>. Funding was provided through the <a href="https://www.ngi.eu/ngi-projects/ngi-zero/" target="_blank" title="NGIO Privacy Enhancing Technologies Fund Website">NGI0 Privacy Enhancing Technologies Fund</a>, a fund established by NLnet with financial support from the European Commission’s Next Generation Internet program, under the aegis of DG Communications Networks, Content and Technology under grant agreement #825310.</p>
+  </div>
 </div>
