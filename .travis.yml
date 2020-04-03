@@ -6,7 +6,7 @@ script:
   - bundle config set deployment 'true'
   - bundle install
   - bundle exec jekyll build
-  - bundle exec htmlproofer --allow-hash-href --url-ignore https://otr.im//404.html,https://otr.im//about/,https://otr.im//feed.xml,https://otr.im//download/,https://otr.im//info/,https://otr.im//team/,https://otr.im//contact/ ./_site
+  - bundle exec htmlproofer --allow-hash-href --url-ignore https://otr.im//404.html,https://otr.im//about/,https://otr.im//feed.xml,https://otr.im//download/,https://otr.im//info/,https://otr.im//team/,https://otr.im//contribute/ ./_site
 
 env:
   global:
