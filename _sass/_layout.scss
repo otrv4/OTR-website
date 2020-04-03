@@ -283,3 +283,26 @@
     margin-top: 5px;
   }
 }
+
+/**
+ *  Contact page
+ */
+.contact-item {
+    padding: 30px;
+    background: $yellow-hover-color;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    height: auto;
+
+    > p {
+      padding-bottom: 40px;
+    }
+}
+
+.contribute {
+    margin-top: 40px;
+}
