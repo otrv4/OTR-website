@@ -305,4 +305,12 @@
 
 .contribute {
     margin-top: 40px;
+
+    > a {
+      color: $text-color;
+    }
+
+    > p {
+      padding-bottom: 20px;
+    }
 }
