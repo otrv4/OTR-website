@@ -8,5 +8,3 @@ vendor
 .DS_Store
 */.DS_Store
 Desktop.ini
-
-Gemfile.lock
