@@ -5,6 +5,8 @@
 This is the official repo of the OTR website code. This will be eventually
 moved to the correct repo once it is finished.
 
+Currently (but will be removed) deployed [here](https://safe-basin-61884.herokuapp.com).
+
 ## Build it!
 
 ```
