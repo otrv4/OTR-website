@@ -183,6 +183,9 @@
 
 .content {
   margin-top: $box-indent;
+  p {
+        margin-bottom: $box-indent;
+  }
 }
 
 .container {
@@ -220,6 +223,11 @@
     > .inside-png-image {
       margin-top: 7px;
       width: $full-width;
+    }
+
+    > .inside-feature-image {
+      margin-top: 7px;
+      width: 100%;
     }
 
     a {
@@ -274,6 +282,11 @@
 
     > img {
       padding-bottom: 10px;
+    }
+
+    > .inside-feature-image {
+      margin-top: 7px;
+      width: 70%;
     }
 }
 
